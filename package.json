@@ -1,0 +1,14 @@
+{
+  "name": "lab2_software-methodology.",
+  "version": "1.0.0",
+  "description": "3 variant",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "yarikkot04 <yarikkotenkoim13@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
