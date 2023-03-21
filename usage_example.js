@@ -24,6 +24,9 @@ linkedList.deleteAll("b")
 console.log(linkedList)
 console.log(linkedList.get(0)) // c
 
+linkedList.insert("t", 1)
+console.log(linkedList.get(1)) // t
+
 const clonedLinkedList = linkedList.clone()
 
 console.log(clonedLinkedList)
@@ -35,6 +38,11 @@ clonedLinkedList.append("t")
 console.log(clonedLinkedList.size)
 
 console.log(linkedList.size)
+
+clonedLinkedList.reverse()
+
+console.log(clonedLinkedList)
+
 
 console.log("First t :", clonedLinkedList.findFirst("t"))
 console.log("Last t :", clonedLinkedList.findLast("t"))
