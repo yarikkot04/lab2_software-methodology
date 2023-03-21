@@ -65,7 +65,7 @@ class DoublyLinkedList {
   }
 
   delete(index) {
-    if (index <= 0 || index >= this.size) {
+    if (index < 0 || index >= this.size) {
       throw new Error("Invalid index")
     }
   
